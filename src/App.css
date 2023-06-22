@@ -2,6 +2,10 @@ body{
   margin: 0px;
 }
 
+p{
+  color: #fbfbfe;
+}
+
 .logoWord{
   display: flex;
   height: 103px;
