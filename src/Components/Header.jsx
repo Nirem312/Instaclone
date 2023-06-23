@@ -43,7 +43,8 @@ if (width <= breakpoint) {
           FIFA World Cup <br/>
           The Official Account of the #FIFAWorldCup <br/>
           Follow the #U20WC! ⬇️ <br/>
-          www.fifa.com/fifaplus/en/tournaments/mens/u20worldcup/argentina-2023 <br/>
+          www.fifa.com/fifaplus/en/tournaments/mens<br/>
+          /u20worldcup/argentina-2023 <br/>
         </p>
     </div>
   </div>
