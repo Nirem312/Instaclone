@@ -457,7 +457,7 @@ ul{
   }
 
   .headerDiv{
-    width: auto;
+    width: 100%;
     justify-content: left;
     margin-left: 3%;
   }
