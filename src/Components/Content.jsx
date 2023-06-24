@@ -23,9 +23,10 @@ function Content(props) {
   const onScroll = () => {
     const scrollTop = document.documentElement.scrollTop
     const scrollHeight = document.documentElement.scrollHeight
-    const clientHeight = document.documentElement.clientHeight
+    const clientHeight = window.innerHeight
  
     if (scrollTop + clientHeight >= scrollHeight) {
+      console.log(window.innerHeight)
       setPage(page + 1)
     }
   }
