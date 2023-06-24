@@ -463,12 +463,12 @@ ul{
   .headerDiv{
     width: 100%;
     justify-content: left;
-    margin-left: 3%;
   }
 
   .profilePicDiv{
     width: auto;
     margin-right: 28px;
+    margin-left: 3%;
   }
 
   .profilePic{
