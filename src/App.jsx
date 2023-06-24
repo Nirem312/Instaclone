@@ -61,10 +61,6 @@ function App() {
         <DashboardBar />
         <div className="dashboardDiv">
           <Content />
-          <div className="midDashboard">
-            <Content />
-          </div>
-          <Content />
         </div>
       </div>
     </div>

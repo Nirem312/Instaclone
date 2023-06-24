@@ -21,6 +21,16 @@ p{
   height: 28px;
 }
 
+.contentRow{
+  display: flex;
+  flex-wrap: inherit;
+  justify-content: center;
+}
+
+.contentRow > div{
+  margin-inline: 1px;
+}
+
 .itemDiv:nth-child(1){
   display: none;
 }
@@ -276,10 +286,6 @@ ul{
   position: relative;
   height: 305px;
   width: 309px;
-}
-
-.midDashboard{
-  margin-inline: 2px;
 }
 
 .imageDiv > img{

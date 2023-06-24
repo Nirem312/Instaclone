@@ -14,6 +14,10 @@ function Content(props) {
     const newItems = []
     newItems.push(<Dashboard number={Math.floor(Math.random() * 20)}/>)
     setItems([...items, ...newItems])
+    newItems.push(<Dashboard number={Math.floor(Math.random() * 20)}/>)
+    setItems([...items, ...newItems])
+    newItems.push(<Dashboard number={Math.floor(Math.random() * 20)}/>)
+    setItems([...items, ...newItems])
   }
  
   const onScroll = () => {
@@ -32,7 +36,7 @@ function Content(props) {
   }, [items])
  
   return (
-    <div>
+    <div className='contentRow'>
       {items.map((item, index) => (
         <div key={index}>
           {item}
