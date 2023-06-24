@@ -17,36 +17,38 @@ useEffect(() => {
 
 if (width <= breakpoint) {
   return (
-  <div>
+  <div className='dynamicHeaderDiv'>
     <div className='headerDiv'>
-    <div className='profilePicDiv'>
-      <img src="../profilepic.jpg" className='profilePic'/>
-    </div>
 
-    <div className='headerContent'>
-      <div className='title'>
-        <div className='nameDiv'>
-          <p>{props.headerInfo.name}</p>
-          {props.headerInfo.isVerified && <img src={verifiedIcon}/>}
+      <div className='profilePicDiv'>
+        <img src="../profilepic.jpg" className='profilePic'/>
+      </div>
+
+      <div className='headerContent'>
+        <div className='title'>
+          <div className='nameDiv'>
+            <p>{props.headerInfo.name}</p>
+            {props.headerInfo.isVerified && <img src={verifiedIcon}/>}
+          </div>
+          <button>...</button>
         </div>
-        <button>...</button>
+        <div>
+            <button>Following <img src={downChevron}/></button>
+            <button>Message</button>
+        </div>
       </div>
-      <div>
-          <button>Following <img src={downChevron}/></button>
-          <button>Message</button>
-      </div>
+
     </div>
-  </div>
-  <div>
-        <div className='description'>
+    <div>
+      <div className='description'>
         <p>
           FIFA World Cup <br/>
           The Official Account of the #FIFAWorldCup <br/>
           Follow the #U20WC! ⬇️ <br/>
           www.fifa.com/fifaplus/en/tournaments/mens/u20worldcup/argentina-2023 <br/>
         </p>
+      </div>
     </div>
-  </div>
   </div>
   );
 }

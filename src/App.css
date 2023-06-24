@@ -456,6 +456,10 @@ ul{
     margin-left: 5%;
   }
 
+  .dynamicHeaderDiv{
+    width: 100%;
+  }
+
   .headerDiv{
     width: auto;
     justify-content: left;
