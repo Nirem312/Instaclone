@@ -17,7 +17,7 @@ useEffect(() => {
 
 if (width <= breakpoint) {
   return (
-  <div className='dynamicHeaderDiv'>
+  <div>
     <div className='headerDiv'>
 
       <div className='profilePicDiv'>
