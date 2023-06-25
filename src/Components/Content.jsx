@@ -26,7 +26,6 @@ function Content(props) {
     const clientHeight = window.innerHeight
  
     if (scrollTop + clientHeight >= scrollHeight) {
-      console.log(window.innerHeight)
       setPage(page + 1)
     }
   }
