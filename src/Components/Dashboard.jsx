@@ -2,7 +2,7 @@ import '../App.css'
 
 export default function Dashboard(props) {
   const animals =["cat", "dog", "bird", "redpanda", "koala", "fox", "bunny", "frog", "duck", "penguin", "axolotl", "capybara"]
-  const image = "https://api.animality.xyz/images/"+animals[Math.floor(Math.random()*animals.length)]+"/"+props.number+".png"
+  const image = "https://cdn.animality.xyz/"+animals[Math.floor(Math.random()*animals.length)]+"/"+props.number+".png"
 
   return (
     <div>
