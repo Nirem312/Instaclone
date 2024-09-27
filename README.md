@@ -1,5 +1,5 @@
 # Instaclone
 
-Instagram profile clone made using React with infinite scroll that loads random animal pictures.
+Instagram profile clone made using React with infinite scroll that loads random fox pictures.
 
-API used: https://animality.xyz/
+API used: https://randomfox.ca/
