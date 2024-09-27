@@ -12,11 +12,11 @@ function Content(props) {
  
   const fetchData = (page) => {
     const newItems = []
-    newItems.push(<Dashboard number={Math.floor(Math.random() * 20)}/>)
+    newItems.push(<Dashboard number={Math.floor(1 + Math.random() * 120)}/>)
     setItems([...items, ...newItems])
-    newItems.push(<Dashboard number={Math.floor(Math.random() * 20)}/>)
+    newItems.push(<Dashboard number={Math.floor(1 + Math.random() * 120)}/>)
     setItems([...items, ...newItems])
-    newItems.push(<Dashboard number={Math.floor(Math.random() * 20)}/>)
+    newItems.push(<Dashboard number={Math.floor(1 + Math.random() * 120)}/>)
     setItems([...items, ...newItems])
   }
  
