@@ -55,12 +55,14 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Header headerInfo={headerInfo} />
-      <Stories storiesInfo={storiesInfo} />
-      <div className="content"> 
-        <DashboardBar />
-        <div className="dashboardDiv">
-          <Content />
+      <div className="mainDiv">
+        <Header headerInfo={headerInfo} />
+        <Stories storiesInfo={storiesInfo} />
+        <div className="content"> 
+          <DashboardBar />
+          <div className="dashboardDiv">
+            <Content />
+          </div>
         </div>
       </div>
     </div>
